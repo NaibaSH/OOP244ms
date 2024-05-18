@@ -1,0 +1,93 @@
+Script started on Sun 07 Apr 2024 11:01:22 AM EDT
+==55195== Memcheck, a memory error detector
+==55195== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==55195== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==55195== Command: ms
+==55195== 
+Loading data...
+16 Records imported...
+
+General Healthcare Facility Pre-Triage Application
+1- Register
+2- Admit
+3- View Lineup
+0- Exit
+> 3
+   Select The Lineup:
+   1- Contagion Test
+   2- Triage
+   0- Exit
+   > 1
+Row - Patient name                                          OHIP     Tk #  Time
+-------------------------------------------------------------------------------
+1   - Apu Nahasapeemapetilon...............................684689164   18 08:04
+2   - Chief Clancy Wiggum..................................448762564   19 08:09
+3   - Dewey Largo..........................................712691397   20 08:10
+4   - Eddie................................................547723561   21 08:13
+5   - Jasper Beardly.......................................119258893   22 08:23
+6   - Lenny Leonard........................................587869296   23 08:30
+7   - Martin Prince........................................666834410   25 08:33
+-------------------------------------------------------------------------------
+General Healthcare Facility Pre-Triage Application
+1- Register
+2- Admit
+3- View Lineup
+0- Exit
+> 3
+   Select The Lineup:
+   1- Contagion Test
+   2- Triage
+   0- Exit
+   > 2
+Row - Patient name                                          OHIP     Tk #  Time
+-------------------------------------------------------------------------------
+1   - Barney Gumble........................................350158143   12 08:05
+2   - Murphy Brown.........................................763006002   13 08:07
+3   - Edna Krabappel.......................................435676529   14 08:17
+4   - Itchy................................................253789913   15 08:20
+5   - Janey Powell.........................................319153275   16 08:22
+6   - Kent Brockman........................................483681036   17 08:23
+7   - Krusty The Clown.....................................950529072   18 08:25
+8   - Lou..................................................152561791   24 08:32
+9   - Marvin Monroe........................................617902450   19 08:40
+-------------------------------------------------------------------------------
+General Healthcare Facility Pre-Triage Application
+1- Register
+2- Admit
+3- View Lineup
+0- Exit
+> 0
+Saving lineup...
+7 Contagion Tests and 9 Triage records were saved!
+
+******  Content of file: "smalldata.csv":
+00:36,00:35
+C,Apu Nahasapeemapetilon,684689164,18,08:04
+T,Barney Gumble,350158143,12,08:05,Nausea-Vomiting-Abdominal Pain
+T,Murphy Brown,763006002,13,08:07,Pounding headache
+C,Chief Clancy Wiggum,448762564,19,08:09
+C,Dewey Largo,712691397,20,08:10
+C,Eddie,547723561,21,08:13
+T,Edna Krabappel,435676529,14,08:17,Muscle tension-Nausea-Photosensitivity 
+T,Itchy,253789913,15,08:20,Chest Pain-Lightheadedness-Pain radiates to arm
+T,Janey Powell,319153275,16,08:22,Fatigue-Dry mouth-Stomach pain
+C,Jasper Beardly,119258893,22,08:23
+T,Kent Brockman,483681036,17,08:23,Cramps-Bloating-Backpain-Fatigue
+T,Krusty The Clown,950529072,18,08:25,Upset Stomach-Headache-Chills-Redness of left eye
+C,Lenny Leonard,587869296,23,08:30
+T,Lou,152561791,24,08:32,Abdominal Pain
+C,Martin Prince,666834410,25,08:33
+T,Marvin Monroe,617902450,19,08:40,Fever-Sore throat-Red blisters on tonge hand and feet
+***************************************************
+
+==55195== 
+==55195== HEAP SUMMARY:
+==55195==     in use at exit: 0 bytes in 0 blocks
+==55195==   total heap usage: 71 allocs, 71 frees, 119,219 bytes allocated
+==55195== 
+==55195== All heap blocks were freed -- no leaks are possible
+==55195== 
+==55195== For lists of detected and suppressed errors, rerun with: -s
+==55195== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+
+Script done on Sun 07 Apr 2024 11:01:31 AM EDT

@@ -1,0 +1,19 @@
+
+/*/////////////////////////////////////////////////////////////////////////
+OOP244 MS51:
+Full Name : Naiba Shabanova
+Student ID# : 164598229
+Email : nshabanova@myseneca.ca
+Section : ZCC
+Date : 2024 - 04 - 05
+Authenticity Declaration :
+I have done all the coding by myself and only copied the code that my
+professor provided to complete my workshops and assignments.
+/////////////////////////////////////////////////////////////////////////*/
+
+
+Embarking on this project propelled me into the depths of C++ and its paradigm of object-oriented programming. Transitioning from the procedural approach of C, I embraced the sophistication of working with classes, inheritance, encapsulation, and the dynamics of polymorphism. This project was instrumental in sharpening my skills in managing memory dynamically, highlighting the critical importance of avoiding memory leaks and mastering the nuances of deep copying.
+Navigating through the project, I encountered several challenging moments, particularly with the implementation of a dynamic array for managing patient records. Ensuring efficient and leak-proof memory management demanded a high degree of precision. Additionally, simulating the system's time for test scenarios presented its own set of complexities, vital for assessing the application under varied operational conditions.
+Tackling these obstacles was no small feat and necessitated a blend of exhaustive research, constructive feedback-seeking, and rigorous testing. I leaned on a variety of resources, including online forums, detailed documentation, and discussions with peers, to navigate through these challenges. The practice of continuous debugging and memory validation was instrumental in mitigating issues promptly during development.
+This project marked a significant milestone in my developmental journey, enhancing not only my technical acumen but also fortifying my problem-solving capabilities. It taught me the essence of perseverance in the face of daunting coding challenges and the imperative of staying adaptable and committed to lifelong learning in the ever-evolving tech landscape.
+Reflecting on this journey, I am filled with a sense of accomplishment for the milestones achieved and the robust application developed. This venture has boosted my confidence, readying me for forthcoming projects that demand a blend of technical skill and innovative thinking.
